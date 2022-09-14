@@ -1,0 +1,110 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.box__center {
+  justify-content: center;
+  margin-top: 200px;
+  display: none;
+}
+
+.box {
+  border: 1px solid black;
+  width: 50vh;
+  height: 35vh;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+.input__text {
+  border-radius: 20px;
+  border-color: blue;
+  width: 30vh;
+  padding: 8px 10px;
+}
+
+.btn {
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  padding: 8px 10px;
+  margin-left: 30px;
+}
+
+.btn:hover {
+background-color: rgb(10, 42, 103);
+transition: 1.2s;
+}
+
+.btn__box {
+  margin-top: 80px;
+  border-radius: 5px;
+  padding: 8px 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+
+.selects {
+  border-radius: 2px;
+  border: none;
+  padding: 5px 15px;
+  background-color: yellow;
+  margin-left: 80px;
+}
+
+.div__search {
+  margin-top: 50px;
+  width: 300px;
+  border: none;
+  outline: none;
+  box-shadow: 2px 5px 20px black;
+}
+
+.box__text {
+  text-align: center;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.boxs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.boxsone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: yellow;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.btn__boxs {
+  color: white;
+  cursor: pointer;
+  background-color: red;
+  border: none;
+  padding: 8px 10px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.btn__boxsone {
+  color: white;
+  cursor: pointer;
+  background-color: black;
+  border: none;
+  padding: 8px 10px;
+}
